@@ -22,3 +22,5 @@ function comparePowers([b1, e1], [b2, e2]) {
 }
 
 // or
+
+const comparePowers = ([a, n], [b, m]) => Math.sign(b - a ** (n / m));
