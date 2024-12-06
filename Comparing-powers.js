@@ -15,3 +15,8 @@ returning -1 if the first member is larger, 0 if they are equal,
 
 
 // Solution
+
+function comparePowers([b1, e1], [b2, e2]) {
+  let d = Math.log(b2) * e2 - Math.log(b1) * e1;
+  return (d > 0) - (d < 0);
+}
