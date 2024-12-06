@@ -12,3 +12,6 @@ returning -1 if the first member is larger, 0 if they are equal,
   comparePowers([3,9],[5,6])===-1
   comparePowers([7,7],[5,8])===-1
 */
+
+
+// Solution
